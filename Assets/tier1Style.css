@@ -30,12 +30,15 @@
             /* ---------------------------------------------------- */
             #header1A, #header1B  {display: inline;}
             #header1A {width: 30%; margin: 0px; padding:0px;}
-            #header1B {text-align:center; top:-10px}
+            #header1B { 
+                flex-flow: row wrap;}
+
             #logo {width: 30%;}
             
             #navList {display: inline; }
             .nav {  padding:2px 4px 2px 4px; border-style:solid; border-color:#000000; 
-                    border-width: 1px; font-size:1.2em; font-weight: bolder; position: relative; top:-0.5em;
+                    border-width: 1px; font-size:1.1em; font-weight: bolder; position: relative; top:-0.4em;
+                    text-align:center;
                     display: inline; background-color:#147233; color:#ffffff;  
                     margin:0px 10px 0px 0px; border-radius: 5px; }
 
@@ -43,7 +46,7 @@
                         background-color: black; border-width: 1px; 
                         border-color:#0a9755;color:#ffffff}
 
-            .seeAll:hover { padding:2px; border-style: solid; background-color: black; 
+            #seeAll:hover { padding:1px; border-style: solid; background-color: black; 
                             border-width: 1px; border-color:#0a9755;}
             /* ------------------NAV BAR 1----------------------- */
             #navbar {width:100%; }
@@ -133,14 +136,21 @@
 
                     /* ---------------------------------------------------- */
             /* ---------------------------------------------------- */
-            #body {  margin:auto; padding-top:10px;  
+            #body { margin:auto; padding-top:10px;  
                     width:95%; background-color:#829c94; color:#ffffff; 
                     position: -webkit-static; position: static; z-index:-2;}
+
+                    #body > div {
+                        display: flex;
+                        flex: 1 1 initial;
+                        flex-wrap: wrap;
+                      }
+
             /* margin auto centers the body box */
             /*BE MINDFUL "relative positioning causes links to NOT WORK !!!*/ /* z-indexing might help (???) */
             /* ---------------------------------------------------- */
             #sloganBox {font-family:'Trebuchet MS', sans-serif; 
-                        position: relative; top:10px; width:95%;  
+                        position: relative; top:10px; width:90%;  
                         color:#000000; 
                         border-style:dashed dashed dashed solid; border-color:#000000 #000000 #000000 #146c8f; 
                         border-left-width:15px;  background-color:#b1d5d8; border-radius: 0px 25px 25px 0px;} 
@@ -164,11 +174,11 @@
             .books {width:50%; margin:7px 7px 7px 25%; display:inline-block;}
 
             #seeAllLine { margin:auto; width:70%; padding:2px; }
-            #seeAll{font-size:0.8em; font-weight: bold;  margin: auto; line-height:0.5px; 
+            #seeAll{font-size:0.8em; font-weight: bold;  margin: auto; 
                     padding:10px ; width:30%; text-align: center; 
                     background-color:#0a9755; color:#ffffff; border-radius: 25px; 
                     box-shadow: 4px 4px #4b4b4b;}
-            #seeAll:hover{font-weight: bold;  margin: auto; line-height:0.5px; 
+            #seeAll:hover{font-weight: bold;  margin: auto; 
                     padding:10px ; width:30%; text-align: center; 
                     background-color:#27ac6e; color:#ffffff; border-radius: 25px; 
                     box-shadow: 4px 4px #4b4b4b;}
@@ -191,7 +201,9 @@
             a:link { color: inherit; text-decoration-line: none;} 
             a:hover { color: inherit; text-decoration-line:underline;}
             a:active { color: inherit; text-decoration-line:underline;}
+            a:visited { color: inherit; text-decoration-line:underline;}
             /* LINK that DONT get underlined */
+            #seeAll > a:link { color: inherit; text-decoration-line: none;} 
             #seeAllLine > a:hover { color: inherit; text-decoration-line:none;}
             #seeAllLine > a:active { color: inherit; text-decoration-line:none;}
             #dashLines > a:link { color: inherit; text-decoration-line: none;} 
@@ -207,17 +219,17 @@
 
             /* ////////////////////// PART 1  /////////////////////////// */
             @media screen and (max-width: 1161px) {
-                .nav {font-size:1.2em;}
+                .nav {font-size:1.1em;}
             }   
             @media screen and (max-width: 1113px) {
                 .nav {font-size:1.0em;}
             }   
-            @media screen and (max-width: 985px) {
+            @media screen and (max-width: 1015px) {
                 .nav {font-size:0.9em;}
 
             }  
-            @media screen and (max-width: 893px) {
-                .nav {font-size:0.8em;}
+            @media screen and (max-width: 923px) {
+                .nav {font-size:0.7em;}
 
             }  
 
