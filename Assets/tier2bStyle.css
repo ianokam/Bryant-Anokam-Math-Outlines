@@ -43,8 +43,6 @@
                         background-color: black; border-width: 1px; 
                         border-color:#0a9755;color:#ffffff}
 
-            .seeAll:hover { padding:2px; border-style: solid; background-color: black; 
-                            border-width: 1px; border-color:#0a9755;}
             /* ------------------NAV BAR 1----------------------- */
             #navbar {width:100%; }
             /* ------------------NAV BAR 2----------------------- */
@@ -163,16 +161,6 @@
 
  
             .books {width:50%; margin:7px 7px 7px 25%; display:inline-block;}
-
-            #seeAllLine { margin:auto; width:70%; padding:2px; }
-            #seeAll{font-size:0.8em; font-weight: bold;  margin: auto; line-height:0.5px; 
-                    padding:10px ; width:30%; text-align: center; 
-                    background-color:#0a9755; color:#ffffff; border-radius: 25px; 
-                    box-shadow: 4px 4px #4b4b4b;}
-            #seeAll:hover{font-weight: bold;  margin: auto; line-height:0.5px; 
-                    padding:10px ; width:30%; text-align: center; 
-                    background-color:#27ac6e; color:#ffffff; border-radius: 25px; 
-                    box-shadow: 4px 4px #4b4b4b;}
             
             /* ---------------------------------------------------- */
             #sloganBox {font-family:'Trebuchet MS', sans-serif; font-size: 1.3em;
@@ -213,7 +201,7 @@
                         margin-top:35px; padding:20px 10px 10px 10px; line-height:110%; 
                         background-color: #010101; color:#e8e5dc;}
 
-            #box1A, #box1B { display:inline-block; }
+            #box1A { display:inline-block; }
 
             .footerList { list-style-type: none; margin:auto; } 
 
@@ -224,8 +212,6 @@
             a:hover { color: inherit; text-decoration-line:underline;}
             a:active { color: inherit; text-decoration-line:underline;}
             /* LINK that DONT get underlined */
-            #seeAllLine > a:hover { color: inherit; text-decoration-line:none;}
-            #seeAllLine > a:active { color: inherit; text-decoration-line:none;}
             #dashLines > a:link { color: inherit; text-decoration-line: none;} 
             #dashLines > a:hover { color: inherit; text-decoration-line:none;}
             #dashLines > a:active { color: inherit; text-decoration-line:none;}
@@ -252,10 +238,6 @@
                 .nav {font-size:0.8em;}
 
             }  
-
-            @media screen and (max-width: 450px) { /* 801.999px */
-                #seeAll{ font-size: 0.6em;}  
-            }
 
             /* ////////////////////// PART 2  /////////////////////////// */
 
@@ -312,8 +294,6 @@
  
                 .books { width:30%; margin:7px 7px 7px 2%; display:inline-block;}
 
-                #seeAll{font-size:1.0em; width:20%;}
-                #seeAll:hover{font-size:1.0em; width:20%;}
                 #footer { font-size:1.0em;}
                 
             }    
