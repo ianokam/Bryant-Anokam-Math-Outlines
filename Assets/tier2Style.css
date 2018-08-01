@@ -189,9 +189,6 @@
     #dashLines > a:link { color: inherit; text-decoration-line: none;} 
     #dashLines > a:hover { color: inherit; text-decoration-line:none;}
     #dashLines > a:active { color: inherit; text-decoration-line:none;}
-    /* LINK that get big */
-    .books > a:hover > img{ color: inherit; text-decoration-line:none; width:105%; }
-    .books > a:active > img{ color: inherit; text-decoration-line:none; width:105%; }
     
     /* ---------------------------------------------------- */
     /* ---------------   MEDIA QUERIES   ------------------ */

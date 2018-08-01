@@ -140,10 +140,12 @@
                 display: flex; flex-direction: column;
             }
 
-                    #body > div {
+            #sloganBox > div {
                         display: flex;
                         flex-wrap: wrap;
                       }
+    
+                      
 
             /* margin auto centers the body box */
             /*BE MINDFUL "relative positioning causes links to NOT WORK !!!*/ /* z-indexing might help (???) */
@@ -157,7 +159,8 @@
 
             #column2 { display:inline-block; text-shadow: 1px 0.5px 0.5px #ffffff; 
                         font-size:1.5em; font-style:oblique;  margin:auto; 
-                         width:90%; text-align: center;}
+                         width:90%; }
+            #column2 > p {align-content: center; text-align: center;}
    
             /* ---------------------------------------------------- */
             .n0 {display: inline-block;}

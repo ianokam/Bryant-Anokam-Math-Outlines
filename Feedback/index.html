@@ -9,6 +9,23 @@
     <title>Bryants Math Notes | HOME</title>
         <!-- CSS Style Sheets -->
     <link rel="stylesheet" type="text/css" href="../Assets/tier2Style.css">
+    
+    <style type="text/css" >
+            #sendMessage{font-size:0.8em;}
+            #sendMessageButtonColor {width:15%; margin:auto; border-style:solid; border-color:#484848; border-width:5px;
+                            color:white; background-color:#484848; border-radius:25px; line-height:1px; 
+                            text-decoration: line-through; text-align: center;}
+
+            @media screen and (max-width: 975px) { 
+                 #sendMessage{ font-size: 0.7em;}  
+                 #sendMessageButtonColor {width:20%;}
+            } 
+            @media screen and (max-width: 844px) { 
+                 #sendMessage{ font-size: 0.6em;}  
+                 #sendMessageButtonColor {width:25%;}
+            }   
+    </style>
+
 
 </head>
 <!-- //////////    body    ////////// -->
@@ -105,9 +122,8 @@
                                     border: 2px solid #ccc; border-radius: 5px; padding:10px; font-size:0.8em; resize:none;" ></textarea>
                             </label>   
                             <br /><br />
-                            <div style=" width:15%; margin:auto; border-style:solid; border-color:#484848; border-width:5px;
-                            color:white; background-color:#484848; border-radius:25px; line-height:1px; text-decoration: line-through; text-align: center;">
-                                <p style="font-size:0.8em;">Send Message</p>
+                            <div id="sendMessageButtonColor">
+                                <p id="sendMessage">Send Message</p>
                             </div>     
                     </fieldset><br />
 
