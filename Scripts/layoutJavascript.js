@@ -11,18 +11,17 @@
             
                             function openNav() {
                                 document.getElementById("mySidenav").style.width = "250px";
-                                $(".container_bool_0").css("display", "none");
+                                $(".container_bool_0").css("visibility", "hidden");
                                 $(".sidenav2").css("visibility", "visible");
-                                
-                                
+                                $("#body").css("position", "fixed");
                         
                             }
 
                             function closeNav() {
                                 document.getElementById("mySidenav").style.width = "0";
-                                $(".container_bool_0").css("display", "inline-block");
+                                $(".container_bool_0").css("visibility", "visible");
                                 $(".sidenav2").css("visibility", "hidden");
-                               
+                                $("#body").css("position", "static");
                             }
               
 

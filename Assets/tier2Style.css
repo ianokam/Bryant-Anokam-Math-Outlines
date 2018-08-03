@@ -1,6 +1,6 @@
-/* ---------------------------------------------------- */
-            /* ---------------   GENERAL LAYOUT   ----------------- */
             /* ---------------------------------------------------- */
+            /* ---------------   GENERAL LAYOUT   ----------------- */
+            /* ---------------------------------------------------- 1*/
 
             html {font-family: Helvetica, sans-serif;}
             body {width:100%; margin:0px;background-color:#e9ebe0;}
@@ -37,14 +37,18 @@
             
             #navList {display: inline; }
             .nav {  padding:2px 4px 2px 4px; border-style:solid; border-color:#000000; 
-                    border-width: 1px; font-size:1.1em; font-weight: bolder; position: relative; top:-0.4em;
+                    border-width: 5px; font-size:1.1em; font-weight: bolder; position: relative; top:-0.3em;
+                    border-color:#ffffff; 
                     text-align:center;
-                    display: inline; background-color:#147233; color:#ffffff;  
-                    margin:0px 10px 0px 0px; border-radius: 5px; }
+                    display: inline; color:#ffffff;  
+                    margin:0px 10px 0px 0px; border-radius: 5px;}
 
-            .nav:hover {padding:2px 4px 2px 4px; border-style: solid; 
-                        background-color: black; border-width: 1px; 
-                        border-color:#0a9755;color:#ffffff}
+            .nav:hover {padding:2px 4px 2px 4px; border-style:solid; border-color:#000000; 
+                        border-width: 5px; font-size:1.1em; font-weight: bolder; position: relative; top:-0.3em;
+                        border-color:#ffffff; 
+                        text-align:center;
+                        display: inline; color:#b1b1b1; 
+                        margin:0px 10px 0px 0px; border-radius: 5px;}
 
             /* ------------------NAV BAR 1----------------------- */
             #navbar {width:100%; }
@@ -138,7 +142,7 @@
                     width:95%; background-color:#829c94; color:#ffffff; 
                     position: -webkit-static; position: static; z-index:-2;
                     display: flex; flex-direction: column;
-                }
+                    box-shadow: -25px 10px  #5a6d67 inset, 25px 10px  #5a6d67 inset;}
 
                     #body >#sloganBox{ /*IN COMPARISON TO THE BODY KEEP THE WIDTH OF THE BOXEX @ 80% ( 15% less than the body box ) */
                         width:80%;

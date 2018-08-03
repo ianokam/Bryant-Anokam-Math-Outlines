@@ -35,13 +35,18 @@
             
             #navList {display: inline; }
             .nav {  padding:2px 4px 2px 4px; border-style:solid; border-color:#000000; 
-                    border-width: 1px; font-size:1.2em; font-weight: bolder; position: relative; top:-0.5em;
-                    display: inline; background-color:#147233; color:#ffffff;  
-                    margin:0px 10px 0px 0px; border-radius: 5px; }
+                    border-width: 5px; font-size:1.1em; font-weight: bolder; position: relative; top:-0.3em;
+                    border-color:#ffffff; 
+                    text-align:center;
+                    display: inline; color:#ffffff;  
+                    margin:0px 10px 0px 0px; border-radius: 5px;}
 
-            .nav:hover {padding:2px 4px 2px 4px; border-style: solid; 
-                        background-color: black; border-width: 1px; 
-                        border-color:#0a9755;color:#ffffff}
+            .nav:hover {padding:2px 4px 2px 4px; border-style:solid; border-color:#000000; 
+                        border-width: 5px; font-size:1.1em; font-weight: bolder; position: relative; top:-0.3em;
+                        border-color:#ffffff; 
+                        text-align:center;
+                        display: inline; color:#b1b1b1; 
+                        margin:0px 10px 0px 0px; border-radius: 5px;}
 
             /* ------------------NAV BAR 1----------------------- */
             #navbar {width:100%; }
@@ -133,7 +138,8 @@
             /* ---------------------------------------------------- */
             #body {  margin:auto; padding-top:10px;  
                     width:95%; background-color:#829c94; color:#ffffff; 
-                    position: -webkit-static; position: static; z-index:-2;}
+                    position: -webkit-static; position: static; z-index:-2;
+                    box-shadow: -25px 10px  #5a6d67 inset, 25px 10px  #5a6d67 inset;}
             /* margin auto centers the body box */
             /*BE MINDFUL "relative positioning causes links to NOT WORK !!!*/ /* z-indexing might help (???) */
             /* ---------------------------------------------------- */
