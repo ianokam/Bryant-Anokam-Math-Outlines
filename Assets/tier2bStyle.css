@@ -71,7 +71,7 @@
             .sidenav {
                 height: 100%;
                 width:0;
-                position: -webkit-fixed; position: fixed; z-index:1; 
+                position: -webkit-fixed; position: fixed; z-index:-1; 
                 top: 10px;
                 left: 0;
                 color:#ffffff;
@@ -136,30 +136,21 @@
 
                     /* ---------------------------------------------------- */
             /* ---------------------------------------------------- */
-            #body {  margin:auto; padding-top:10px;  
-                    width:95%; background-color:#829c94; color:#ffffff; 
-                    position: -webkit-static; position: static; z-index:-2;
-                    box-shadow: -25px 10px  #5a6d67 inset, 25px 10px  #5a6d67 inset;}
+            #body { margin:auto; padding-top:10px;  
+                width:95%; background-color:#829c94; color:#ffffff; 
+                position: -webkit-static; position: static; z-index:-2;
+                display: flex; flex-direction: column;
+                box-shadow: -25px 10px  #5a6d67 inset, 25px 10px  #5a6d67 inset;}
             /* margin auto centers the body box */
             /*BE MINDFUL "relative positioning causes links to NOT WORK !!!*/ /* z-indexing might help (???) */
             /* ---------------------------------------------------- */
-            #sloganBox {font-family:'Trebuchet MS', sans-serif; 
-                        position: relative; top:10px; width:95%;  
-                        color:#000000; 
-                        border-style:dashed dashed dashed solid; border-color:#000000 #000000 #000000 #146c8f; 
-                        border-left-width:15px;  background-color:#b1d5d8; border-radius: 0px 25px 25px 0px;
-                        } 
-                        /*MUST specify all (3).. width, style, & color of borders */
 
-            #column2 { display:inline-block; text-shadow: 1px 0.5px 0.5px #ffffff; 
-                        font-size:1.5em; font-style:oblique;  margin:auto; 
-                         width:90%; text-align: center;}
    
             /* ---------------------------------------------------- */
             .n0 {display: inline-block;}
 
             #notebooksBox_1 {   margin:auto; border-radius: 10px; padding:5px; line-height:2px; 
-                                background-color:#000000; color:#ffffff;}
+                                background-color:#000000; color:#ffffff;  align-content: center}
 
             #notebooksBar {width: 80%; height:15px ; position: relative; top:15px;}
             /* ---------------------------------------------------- */
@@ -170,14 +161,15 @@
             
             /* ---------------------------------------------------- */
             #sloganBox {font-family:'Trebuchet MS', sans-serif; font-size: 1.3em;
-                position: relative; top:10px; width:88%;  
+                position: relative; top:10px; width:80.5%;  
                 color:#000000; margin:auto; padding: 10px 20px 10px 20px;
                 border-style:solid; border-color:#000000  #146c8f #000000 #146c8f; 
                 border-width:5px 15px 5px 15px;  background-color:#b1d5d8; border-radius: 5px;} 
                 /*MUST specify all (3).. width, style, & color of borders */
                 
 
-                #innerboxes {   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                #innerboxes {   
+                                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
                                 width:70%;  color:#000000; 
                                 border-style:dashed solid dashed solid; 
                                 border-color:#747474 #747474 #747474 #148f6a;  
@@ -188,6 +180,8 @@
                                 height:3%;
                             } 
                 
+                
+
                 #column1, #column2 {display: table-row-group; } 
                 #column1 { padding-left:20px; margin-left:20px; }
                 #column2 { text-shadow: 1px 0.5px 0.5px #ffffff; font-size:1em; font-style:oblique; text-align: start;}
@@ -255,7 +249,10 @@
                 #logo {width: 70%;}
                 
                 #column1 { width:15%; }
-
+                #innerboxes {   
+                    margin: auto; 
+                    width:90%;}
+                #column1 > img {margin-left: 28%; width:40%;}
                 #column2 { display:inline-block; text-shadow: 1px 0.5px 0.5px #ffffff; 
                         font-size:1em; font-style:oblique;  margin:auto; 
                          width:95%; text-align: center;}       
@@ -266,7 +263,7 @@
                 .sidenav2 {
                     height: 100%;
                     width: 100%;
-                    position: -webkit-fixed; position: fixed; z-index:1; 
+                    position: -webkit-fixed; position: fixed; z-index:-1; 
                     top: 0;
                     left: 0;
                     color:#ffffff;
