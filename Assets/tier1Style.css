@@ -73,8 +73,8 @@
             .sidenav {
                 height: 100%;
                 width:0;
-                position: -webkit-fixed; position: fixed; z-index:-2; 
-                top: 0;
+                position: -webkit-fixed; position: fixed; z-index:1; 
+                top: 10px;
                 left: 0;
                 color:#ffffff;
                 background-color: #111;
@@ -156,13 +156,15 @@
             /*BE MINDFUL "relative positioning causes links to NOT WORK !!!*/ /* z-indexing might help (???) */
             /* ---------------------------------------------------- */
 
-            #SloganBanner1 { align-content: center; text-align: center; position: relative; top:-10px;
-                            margin-top:0px; margin-bottom:0px; padding:0px 10px 10px 10px; line-height:155%; 
-                            background-color: #468ab8;
-                            border-style:solid; border-color:#e9ebe0 #e9ebe0 #e9ebe0 #01c80e; border-width:0px 15px 15px 15px;
-                            border-radius:0px 0px -25px -25px;
-                            box-shadow: 25px 0px  #01c80e inset;
-                            } 
+            #SloganBanner1 {align-content: center; text-align: center; position: relative; top:-10px;
+                margin-top:0px; margin-bottom:0px; padding:0px 10px 10px 10px; line-height:155%; 
+                background-color: #468ab8;
+                border-style:solid; border-color:#e9ebe0 #e9ebe0 #e9ebe0 #01c80e; border-width:0px 15px 15px 15px;
+                border-radius:0px 0px 25px 0px;
+                box-shadow: 25px 0px  #01c80e inset, 
+                -25px 10px  #e9ebe0, 25px 10px  #e9ebe0, 0px 15px  #5a6d67;
+                z-index: 2;
+                } 
 
             #bannerTitle {  font-size:1.5em; color:#11202a; 
                             text-shadow: 1px 1px #38698a, 2px 2px #38698a,3px 3px #38698a; 
@@ -275,7 +277,7 @@
                 .sidenav2 {
                     height: 100%;
                     width: 100%;
-                    position: -webkit-fixed; position: fixed; z-index:-2; 
+                    position: -webkit-fixed; position: fixed; z-index:1; 
                     top: 0;
                     left: 0;
                     color:#ffffff;

@@ -13,6 +13,7 @@
                                 document.getElementById("mySidenav").style.width = "250px";
                                 $(".container_bool_0").css("visibility", "hidden");
                                 $(".sidenav2").css("visibility", "visible");
+                                $(".sidenav2").css("padding-left", "10%");
                                 $("#body").css("position", "fixed");
                         
                             }
@@ -21,6 +22,7 @@
                                 document.getElementById("mySidenav").style.width = "0";
                                 $(".container_bool_0").css("visibility", "visible");
                                 $(".sidenav2").css("visibility", "hidden");
+                                $(".sidenav2").css("padding-left", "0%");
                                 $("#body").css("position", "static");
                             }
               
