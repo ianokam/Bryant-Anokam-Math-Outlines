@@ -137,10 +137,10 @@
                     /* ---------------------------------------------------- */
             /* ---------------------------------------------------- */
             #body { margin:auto; padding-top:10px;  
-                width:95%; background-color:#829c94; color:#ffffff; 
+                width:95%; background-color:#5a6d67 ; color:#ffffff; 
                 position: -webkit-static; position: static; z-index:-2;
                 display: flex; flex-direction: column;
-                box-shadow: -25px 10px  #5a6d67 inset, 25px 10px  #5a6d67 inset;}
+                box-shadow: -25px 10px  #2b3331 inset, 25px 10px  #2b3331 inset;}
             /* margin auto centers the body box */
             /*BE MINDFUL "relative positioning causes links to NOT WORK !!!*/ /* z-indexing might help (???) */
             /* ---------------------------------------------------- */
@@ -163,32 +163,52 @@
             #sloganBox {font-family:'Trebuchet MS', sans-serif; font-size: 1.3em;
                 position: relative; top:10px; width:80.5%;  
                 color:#000000; margin:auto; padding: 10px 20px 10px 20px;
-                border-style:solid; border-color:#000000  #146c8f #000000 #146c8f; 
-                border-width:5px 15px 5px 15px;  background-color:#b1d5d8; border-radius: 5px;} 
+                border-style:solid; border-color:#232327; 
+                border-width:15px;  background-color:#414749; border-radius: 10px;
+                box-shadow: 3px 2px 10px #4a4f50 inset} 
                 /*MUST specify all (3).. width, style, & color of borders */
                 
 
                 #innerboxes {   
                                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-                                width:70%;  color:#000000; 
-                                border-style:dashed solid dashed solid; 
-                                border-color:#747474 #747474 #747474 #148f6a;  
-                                background-color:#b1d8c9; 
-                                border-radius: 5px;
+                                width:70%;  color:#ffffff; 
+                                border-style:solid; 
+                                border-width:10px;
+                                border-color: #dadbdd ;  
+                                background-color:#29292e; 
+                                border-radius: 10px;
                                 padding:15px;
                                 margin-bottom: 2px;
                                 height:3%;
+                                margin-left: 85px;
+                                box-shadow: 5px 5px 5px #656c6d;
                             } 
-                
+                    
+                blockquote{text-align: left; text-decoration-line: underline;}
+                blockquote > h4 {line-height: 0px;margin-bottom:15px}
+                blockquote > p {margin-top:5px}
+                #underLine {line-height:0px; background-color: #ffffff; width:100%; height:5px; 
+                            }
                 
 
                 #column1, #column2 {display: table-row-group; } 
                 #column1 { padding-left:20px; margin-left:20px; }
-                #column2 { text-shadow: 1px 0.5px 0.5px #ffffff; font-size:1em; font-style:oblique; text-align: start;}
+                #column2 { font-size:1em; font-style:oblique; text-align: start;}
                 #bookPic { margin-top:10px;margin-bottom: 2px; width: 25%; float: left; clear: both;}
-
-                #centered { display:block; text-align:center;}
                 
+                
+                #tableOfContentsTitle { width:50%; margin-left:85px; background-color:#9e9899; border-style: ridge; 
+                                        border-color: rgb(0, 0, 0); border-radius: 5px; 
+                                        color:white; text-shadow: 1px 1px #234257, 2px 2px #38698a,3px 3px #38698a; 
+                                        font-size:1.8em; display:block; text-align: center; }
+                .tableOfContents{ width:80%;  font-size:1.5em; margin-left:50px; list-style-type: decimal;}
+                .tableOfContents > li { color:white; font-family: monospace;
+                                        }
+                li > p {text-shadow: 1px 1px #000000;padding-left: 10px;
+                                        background-color:#232327; padding: 10px;
+                                        border-width:0px 0px 5px 0px; 
+                                        border-style: groove; border-color: rgb(75, 81, 90); margin-bottom:10px; 
+                                        border-radius: 15px;}
 
                 #tipBox {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; position: relative; top:10px; width:50%; margin:auto; color:#000000; border-style:dashed dashed dashed solid; border-color:#000000 #000000 #000000 #148f6a; border-left-width:15px;  background-color:#b1d8c9; } /*MUST specify all (3).. width, style, & color of borders */
                 #column1B, #column2B { display:inline-block;}
