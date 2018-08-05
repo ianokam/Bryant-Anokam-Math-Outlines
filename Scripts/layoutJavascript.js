@@ -15,6 +15,7 @@
                                 $(".sidenav2").css("visibility", "visible");
                                 $(".sidenav2").css("padding-left", "10%");
                                 $("#body").css("position", "fixed");
+                                $("#body").css("left", "2.5%");
                         
                             }
 
@@ -24,6 +25,7 @@
                                 $(".sidenav2").css("visibility", "hidden");
                                 $(".sidenav2").css("padding-left", "0%");
                                 $("#body").css("position", "static");
+                                $("#body").removeAttr("left");
                             }
               
 
