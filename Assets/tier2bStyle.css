@@ -204,6 +204,7 @@
                 .tableOfContents{ width:80%;  font-size:1.5em; margin-left:50px; list-style-type: decimal;}
                 .tableOfContents > li { color:white; font-family: monospace;
                                         }
+                #tableComment {margin-left:85px;color:white; }
                 li > p {text-shadow: 1px 1px #000000;padding-left: 10px;
                                         background-color:#232327; padding: 10px;
                                         border-width:0px 0px 5px 0px; 
