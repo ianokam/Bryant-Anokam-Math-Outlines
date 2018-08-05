@@ -334,9 +334,9 @@
 
             /* ////////////////////// PART 3  /////////////////////////// */
             /* ---------------------------------------------------- */
-            @media screen and (max-width: 844px) { 
+            @media screen and (max-width: 767px) { 
                 #innerboxes {   
-                    position: relative; left: -1.5%;;
+                    position: relative; left: -3.5%;;
                     margin-left: 10px;
                     box-shadow: 5px 5px 5px #656c6d;
                 } 
@@ -361,9 +361,9 @@
 
                 }
 
-                @media screen and (max-width: 556px) { 
+                @media screen and (max-width: 650px) { 
                     #innerboxes {   
-                        position: relative; left: -3.5%;;
+                        position: relative; left: -5.5%;;
                         margin-left: 10px;
                         box-shadow: 5px 5px 5px #656c6d;
                     } 
@@ -387,9 +387,9 @@
                             li > p {font-size:0.8em; }
     
                     }
-                    @media screen and (max-width: 375px) { 
+                    @media screen and (max-width: 414px) { 
                         #innerboxes {   
-                            position: relative; left: -5.5%;;
+                            position: relative; left: -8.5%;;
                             margin-left: 10px;
                             box-shadow: 5px 5px 5px #656c6d;
                         } 
@@ -413,9 +413,9 @@
                                 li > p {font-size:0.8em; }
         
                         }
-                        @media screen and (max-width: 320px) { 
+                        @media screen and (max-width: 375px) { 
                             #innerboxes {   
-                                position: relative; left: -7.5%;;
+                                position: relative; left: -10.5%;;
                                 margin-left: 10px;
                                 box-shadow: 5px 5px 5px #656c6d;
                             } 
@@ -439,3 +439,29 @@
                                     li > p {font-size:0.8em; }
             
                             }
+                            @media screen and (max-width: 320px) { 
+                                #innerboxes {   
+                                    position: relative; left: -12.5%;;
+                                    margin-left: 10px;
+                                    box-shadow: 5px 5px 5px #656c6d;
+                                } 
+                                    #sloganBox {font-size: 1em;
+                                        position: relative; top:10px; width:65.5%;  
+                                        color:#000000; margin:auto; padding: 10px 20px 10px 20px;
+                                        border-style:solid; border-color:#232327; 
+                                        border-width:15px;  background-color:#414749; border-radius: 10px;
+                                        box-shadow: 3px 2px 10px #4a4f50 inset} 
+                                        /*MUST specify all (3).. width, style, & color of borders */
+                                        
+                
+                                        #innerboxes {    font-size: 1.0em; 
+                                                        box-shadow: 3px 3px 3px #656c6d;
+                                                    } 
+                
+                                        #tableOfContentsTitle {  width:70%; margin-left:0px; }
+                                        .tableOfContents{ margin-left:0px;}
+                
+                                        #tableComment {margin-left:0px;}
+                                        li > p {font-size:0.8em; }
+                
+                                }
