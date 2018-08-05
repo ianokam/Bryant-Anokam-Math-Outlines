@@ -183,20 +183,16 @@
                                 margin-left: 85px;
                                 box-shadow: 5px 5px 5px #656c6d;
                             } 
-                    
-                blockquote{text-align: left; text-decoration-line: underline;}
-                blockquote > h4 {line-height: 0px;margin-bottom:15px}
-                blockquote > p {margin-top:5px}
-                #underLine {line-height:0px; background-color: #ffffff; width:100%; height:5px; 
-                            }
-                
-
                 #column1, #column2 {display: table-row-group; } 
                 #column1 { padding-left:20px; margin-left:20px; }
                 #column2 { font-size:1em; font-style:oblique; text-align: start;}
                 #bookPic { margin-top:10px;margin-bottom: 2px; width: 25%; float: left; clear: both;}
+                blockquote{text-align: left; text-decoration-line: underline;}
+                blockquote > h4 {line-height: 0px;margin-bottom:15px}
+                blockquote > p {margin-top:5px}
+                #underLine {line-height:0px; background-color: #ffffff; width:100%; height:5px; }
                 
-                
+
                 #tableOfContentsTitle { font-family:'Trebuchet MS', sans-serif; width:50%; margin-left:85px; background-color:#9e9899; border-style: ridge; 
                                         border-color: rgb(0, 0, 0); border-radius: 5px; 
                                         color:white; text-shadow: 1px 1px #234257, 2px 2px #38698a,3px 3px #38698a; 
@@ -210,6 +206,7 @@
                                         border-width:0px 0px 5px 0px; 
                                         border-style: groove; border-color: rgb(75, 81, 90); margin-bottom:10px; 
                                         border-radius: 15px;}
+
 
                 #tipBox {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; position: relative; top:10px; width:50%; margin:auto; color:#000000; border-style:dashed dashed dashed solid; border-color:#000000 #000000 #000000 #148f6a; border-left-width:15px;  background-color:#b1d8c9; } /*MUST specify all (3).. width, style, & color of borders */
                 #column1B, #column2B { display:inline-block;}
@@ -259,6 +256,33 @@
             }  
 
             /* ////////////////////// PART 2  /////////////////////////// */
+            /* ---------------------------------------------------- */
+            @media screen and (max-width: 844px) { 
+                #innerboxes {   
+                    position: relative; left: -4.5%;;
+                    margin-left: 10px;
+                    box-shadow: 5px 5px 5px #656c6d;
+                } 
+                    #sloganBox {font-size: 1em;
+                        position: relative; top:10px; width:65.5%;  
+                        color:#000000; margin:auto; padding: 10px 20px 10px 20px;
+                        border-style:solid; border-color:#232327; 
+                        border-width:15px;  background-color:#414749; border-radius: 10px;
+                        box-shadow: 3px 2px 10px #4a4f50 inset} 
+                        /*MUST specify all (3).. width, style, & color of borders */
+                        
+
+                        #innerboxes {    font-size: 1.0em; 
+                                        box-shadow: 3px 3px 3px #656c6d;
+                                    } 
+
+                        #tableOfContentsTitle {  width:70%; margin-left:0px; }
+                        .tableOfContents{ margin-left:0px;}
+
+                        #tableComment {margin-left:0px;}
+                        li > p {font-size:0.8em; }
+
+                }
 
             @media screen and (max-width: 844px) { /* 801.999px */
                 #header1B{
@@ -274,7 +298,7 @@
                     margin: auto; 
                     width:90%;}
                 #column1 > img {margin-left: 28%; width:40%;}
-                #column2 { display:inline-block; text-shadow: 1px 0.5px 0.5px #ffffff; 
+                #column2 { display:inline-block; text-shadow: 0.5px 0.5px 0.5px #ffffff; 
                         font-size:1em; font-style:oblique;  margin:auto; 
                          width:95%; text-align: center;}       
 
