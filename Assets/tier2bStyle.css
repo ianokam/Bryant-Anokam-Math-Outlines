@@ -160,7 +160,7 @@
             .books {width:50%; margin:7px 7px 7px 25%; display:inline-block;}
             
             /* ---------------------------------------------------- */
-            #sloganBox {font-family:'Trebuchet MS', sans-serif; font-size: 1.3em;
+            #sloganBox {font-size: 1.3em;
                 position: relative; top:10px; width:80.5%;  
                 color:#000000; margin:auto; padding: 10px 20px 10px 20px;
                 border-style:solid; border-color:#232327; 
@@ -170,7 +170,7 @@
                 
 
                 #innerboxes {   
-                                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                                font-family:'Trebuchet MS', sans-serif; 
                                 width:70%;  color:#ffffff; 
                                 border-style:solid; 
                                 border-width:10px;
@@ -197,15 +197,15 @@
                 #bookPic { margin-top:10px;margin-bottom: 2px; width: 25%; float: left; clear: both;}
                 
                 
-                #tableOfContentsTitle { width:50%; margin-left:85px; background-color:#9e9899; border-style: ridge; 
+                #tableOfContentsTitle { font-family:'Trebuchet MS', sans-serif; width:50%; margin-left:85px; background-color:#9e9899; border-style: ridge; 
                                         border-color: rgb(0, 0, 0); border-radius: 5px; 
                                         color:white; text-shadow: 1px 1px #234257, 2px 2px #38698a,3px 3px #38698a; 
                                         font-size:1.8em; display:block; text-align: center; }
                 .tableOfContents{ width:80%;  font-size:1.5em; margin-left:50px; list-style-type: decimal;}
-                .tableOfContents > li { color:white; font-family: monospace;
+                .tableOfContents > li {  color:white; font-family: monospace;
                                         }
                 #tableComment {margin-left:85px;color:white; }
-                li > p {text-shadow: 1px 1px #000000;padding-left: 10px;
+                li > p {font-family:'Trebuchet MS', sans-serif;  font-size:0.8em; text-shadow: 1px 1px #000000;padding-left: 10px;
                                         background-color:#232327; padding: 10px;
                                         border-width:0px 0px 5px 0px; 
                                         border-style: groove; border-color: rgb(75, 81, 90); margin-bottom:10px; 
