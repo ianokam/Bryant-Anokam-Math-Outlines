@@ -517,3 +517,28 @@
                 cursor: pointer;
                 color: #ffffff;   
             }
+
+
+
+    /*FOR BIGGER SCREENS*/
+@media only screen and (min-width: 1295px) {
+
+            /* LINK that get big */
+            .books > a:hover > img{ 
+                color: inherit; 
+                text-decoration-line:none; 
+                background-color: rgba(15, 171, 199, 0.486); 
+                border-radius:25px; 
+                width:70%;
+                padding: 25px;
+                    }
+            .books > a:active > img{
+                color: inherit; 
+                text-decoration-line:none; 
+                background-color: rgba(15, 171, 199, 0.486); 
+                border-radius:25px; 
+                width:80%;
+                padding: 25px;
+                    }
+
+}
