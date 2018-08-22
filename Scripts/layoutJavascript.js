@@ -16,7 +16,7 @@
                                 $(".sidenav2").css("padding-left", "10%");
                                 $("#body").css("position", "fixed");
                                 $("#body").css("left", "2.5%");
-                        
+    
                             }
 
                             function closeNav() {
