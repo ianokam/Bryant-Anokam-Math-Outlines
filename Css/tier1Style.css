@@ -374,6 +374,8 @@
                     background-size: 70px; 
                     border-radius:25px; 
                     border: 25px solid rgba(15, 89, 199, 0.075);
+                    width: 75%;
+                    height: 75%;
                     }
             .books > a:active > img{
                     color: inherit; 
@@ -382,6 +384,8 @@
                     background-size: 70px; 
                     border-radius:25px; 
                     border: 25px solid rgba(15, 89, 199, 0.075);
+                    width: 75%;
+                    height: 75%;
                     }
             
             /* ---------------------------------------------------- */
