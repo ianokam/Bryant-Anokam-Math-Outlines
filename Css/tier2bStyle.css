@@ -160,11 +160,19 @@
             .books {width:50%; margin:7px 7px 7px 25%; display:inline-block;}
             
             /* ---------------------------------------------------- */
-            #sloganBox {font-size: 1.3em;
-                position: relative; top:10px; width:80.5%;  
-                color:#000000; margin:auto; padding: 10px 20px 10px 20px;
-                border-style:solid; border-color:#232327; 
-                border-width:15px;  background-color:#414749; border-radius: 10px;
+            #sloganBox {
+                font-size: 1.3em;
+                position: relative; 
+                top:10px; 
+                width:80.5%;  
+                color:#000000; 
+                margin:auto; 
+                padding: 10px 20px 10px 20px;
+                border-style:solid; 
+                border-color:#232327; 
+                border-width:15px;  
+                background-color:#414749; 
+                border-radius: 10px;
                 box-shadow: 3px 2px 10px #4a4f50 inset} 
                 /*MUST specify all (3).. width, style, & color of borders */
                 
@@ -282,7 +290,9 @@
                 .sidenav2 {
                     height: 100%;
                     width: 100%;
-                    position: -webkit-fixed; position: fixed; z-index:-1; 
+                    position: -webkit-fixed; 
+                    position:fixed; 
+                    z-index:-1; 
                     top: 0;
                     left: 0;
                     color:#ffffff;
