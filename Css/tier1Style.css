@@ -529,7 +529,7 @@
                 text-decoration-line:none; 
                 background-color: rgba(15, 171, 199, 0.486); 
                 border-radius:25px; 
-                width:70%;
+                width:85%;
                 padding: 25px;
                     }
             .books > a:active > img{
@@ -537,7 +537,7 @@
                 text-decoration-line:none; 
                 background-color: rgba(15, 171, 199, 0.486); 
                 border-radius:25px; 
-                width:80%;
+                width:85%;
                 padding: 25px;
                     }
 
