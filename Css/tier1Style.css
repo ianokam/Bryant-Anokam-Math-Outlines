@@ -368,24 +368,20 @@
                     }
             /* LINK that get big */
             .books > a:hover > img{ 
-                    color: inherit; 
-                    text-decoration-line:none; 
-                    background-color: rgba(15, 171, 199, 0.486); 
-                    background-size: 70px; 
-                    border-radius:25px; 
-                    border: 25px solid rgba(15, 89, 199, 0.075);
-                    width: 75%;
-                    height: 75%;
+                color: inherit; 
+                text-decoration-line:none; 
+                background-color: rgba(15, 171, 199, 0.486); 
+                border-radius:25px; 
+                width:70%;
+                padding: 25px;
                     }
             .books > a:active > img{
-                    color: inherit; 
-                    text-decoration-line:none; 
-                    background-color: rgba(15, 171, 199, 0.486); 
-                    background-size: 70px; 
-                    border-radius:25px; 
-                    border: 25px solid rgba(15, 89, 199, 0.075);
-                    width: 75%;
-                    height: 75%;
+                color: inherit; 
+                text-decoration-line:none; 
+                background-color: rgba(15, 171, 199, 0.486); 
+                border-radius:25px; 
+                width:70%;
+                padding: 25px;
                     }
             
             /* ---------------------------------------------------- */
