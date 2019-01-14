@@ -1,6 +1,6 @@
-            /* ---------------------------------------------------- */
-            /* ---------------   GENERAL LAYOUT   ----------------- */
-            /* ---------------------------------------------------- */
+            /* ------------------------------------------------------------------------------- */
+            /* ---------------   GENERAL LAYOUT FOR EACH MATH BOOKS CONTENT  ----------------- */
+            /* ------------------------------------------------------------------------------- */
 
             html {font-family: Helvetica, sans-serif;}
             body {width:100%; margin:0px;background-color:#e9ebe0;}
@@ -194,7 +194,7 @@
                 #column1 { padding-left:20px; margin-left:20px; }
                 #column2 { font-size:1em; font-style:oblique; text-align: start;}
                 #bookPic { margin-top:10px;margin-bottom: 2px; width: 25%; float: left; clear: both;}
-                blockquote{text-align: left; text-decoration-line: underline;}
+                blockquote{text-align: left; }
                 blockquote > h4 {line-height: 0px;margin-bottom:15px}
                 blockquote > p {margin-top:5px}
                 #underLine {line-height:0px; background-color: #ffffff; width:100%; height:5px; }
@@ -209,6 +209,12 @@
                                         }
                 #tableComment {margin-left:85px;color:white; }
                 li > p {font-family:'Trebuchet MS', sans-serif;  font-size:0.8em; text-shadow: 1px 1px #000000;padding-left: 10px;
+                                        background-color:#232327; padding: 10px;
+                                        border-width:0px 0px 5px 0px; 
+                                        border-style: groove; border-color: rgb(75, 81, 90); margin-bottom:10px; 
+                                        border-radius: 15px;}
+                                        
+                .card-header {font-family:'Trebuchet MS', sans-serif;  font-size:0.8em; text-shadow: 1px 1px #000000;padding-left: 10px;
                                         background-color:#232327; padding: 10px;
                                         border-width:0px 0px 5px 0px; 
                                         border-style: groove; border-color: rgb(75, 81, 90); margin-bottom:10px; 
